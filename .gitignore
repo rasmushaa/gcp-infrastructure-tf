@@ -1,0 +1,33 @@
+# Terraform working directories and local state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Local Terraform values (examples remain public)
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+!*.tfvars.example.json
+
+# Local Terraform CLI configuration and overrides
+.terraformrc
+terraform.rc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials and private keys
+**/credentials/
+**/.credentials/
+**/secrets/
+**/.secrets/
+*.pem
+*.p12
+*.key
+*service-account*.json
+*credentials*.json
